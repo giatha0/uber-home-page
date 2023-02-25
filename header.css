@@ -1,0 +1,139 @@
+body {
+	background: black;
+	font-family: "UberMove", sans-serif;
+	font-size: 16px;
+	margin: auto;
+	color: #FFF;
+}
+
+@font-face {
+    font-family: "UberMove";
+	src: url("uber-move-font/UberMove-Regular.ttf");
+}
+.head {
+	display: block;
+}
+
+
+.header {
+	color: white;
+	display: flex;
+	height: 64px;
+	margin: 0px auto;
+}
+
+.header ul {
+	display: flex;
+
+}
+
+.header a {
+	display: flex;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.header ul li {
+	list-style: none;
+}
+
+.header-content {
+	height: 40px;
+	display: flex;
+	padding: 0px 64px;
+	margin: auto;
+	line-height: 40px;
+	width: 100%;
+	font-weight: bold;
+}
+
+.header .h-uber {
+	display: flex;
+	font-family: 'UberMove', sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0px;
+	flex-grow: 0;
+	justify-content: flex-start;
+}
+
+.h-ul1 {
+	display: flex;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 0;
+	margin: 0px 24px;
+	flex: auto;
+	box-sizing: border-box;
+}
+.h-ul1 li {
+	margin: 0px 6px;
+	padding: 0px 12px;
+}
+
+.h-ul1 img {
+	line-height: 40px;
+	padding-top: 12px;
+}
+
+.h-ul2 {
+	display: flex;
+	font-size: 14px;
+	line-height: 40px;
+	margin: auto;
+	justify-content: flex-end;
+	flex-flow: 0;
+	padding: ;
+}
+
+.h-ul2 img {
+	line-height: 40px;
+	padding-top: 13px;
+	padding-left: 8px;
+}
+
+.h-ul2 li {
+	margin: 0px 4px;
+	padding: 0px 12px;
+}
+
+
+.h-ul2 .h-signup a {
+	color: #000;
+}
+
+.h-ul1 li {
+	transition-property: background;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+.h-ul1 li:hover {
+	background: #333333;
+	
+}
+
+
+.h-ul2 .h-transition {
+	transition-property: background;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.h-ul2 .h-transition:hover {
+	background: #333333;
+	
+}
+
+.h-ul2 .h-signup {
+	border-radius: 30px;
+	transition-timing-function: cubic-bezier(0, 0, 1, 1);
+	cursor: pointer;
+	background-color: #FFF;
+}
+
