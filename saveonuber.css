@@ -1,0 +1,62 @@
+.save-on-uber {
+	background-color: #FFF;
+	color: #000;
+}
+
+.save-on-uber-main {
+	padding: 64px 150px;
+}
+
+
+.save-on-uber-content {
+	width: 1152px;
+	display: grid;
+	grid-column-gap: 36px;
+	grid-row-gap: 36px;
+	grid-template-columns: repeat(12, 1fr);
+	justify-items: inherit;
+}
+
+.save-on-uber-text {
+	grid-column-start: 1;
+	grid-column-end: span 5;
+	order: 1;
+}
+
+.save-on-uber-img {
+	display: grid;
+	grid-column-start: 7;
+	grid-column-end: span 6;
+	order: 2;
+}
+
+.save-on-uber-h2 {
+	margin-bottom: 24px;
+	font-size: 25px;
+	line-height: 44px;
+	font-weight: bold;
+}
+
+.save-on-uber-h2 h2 {
+	margin: 0;
+}
+
+.save-on-uber-p p {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+
+.save-on-uber-a a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 14px 25px;
+	background-color: #000;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	line-height: 20px;
+	border-radius: 8px;
+	margin-top: 12px;
+}
