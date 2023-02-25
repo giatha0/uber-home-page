@@ -6,6 +6,14 @@ Uber Home Page is a small exercise that I was able to complete during my process
 ## Demo
 
 https://uber-home-page.web.app/
+## Acknowledgements
+
+ - [Html](https://www.w3schools.com/html/)
+ - [Css](https://www.w3schools.com/css/default.asp)
+ - [Git - from Rezo to Hero](https://youtube.com/playlist?list=PLkY6Xj8Sg8-viFVtaVps_h_Emi2wQyE7q)
+ - Deploy code with firebase
+
+
 ## Screenshots
 
 ![App Screenshot](https://i.postimg.cc/W1G0tnKP/header.png)
@@ -25,10 +33,3 @@ https://uber-home-page.web.app/
 ![App Screenshot](https://i.postimg.cc/jjRPff0n/signupuber.png)
 
 ![App Screenshot](https://i.postimg.cc/Sss9TpKy/footer.png)
-## Acknowledgements
-
- - [Html](https://www.w3schools.com/html/)
- - [Css](https://www.w3schools.com/css/default.asp)
- - [Git - from Rezo to Hero](https://youtube.com/playlist?list=PLkY6Xj8Sg8-viFVtaVps_h_Emi2wQyE7q)
- - Deploy code with firebase
-
