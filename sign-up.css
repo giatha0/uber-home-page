@@ -1,0 +1,55 @@
+
+
+.signup-to-drive-main {
+	padding: 64px 150px;
+}
+
+.signup-to-drive-content {
+	display: grid;
+	grid-row-gap: 36px;
+	grid-column-gap: 36px;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.sign-up-1 {
+	grid-column: span 6;
+}
+
+.sign-up-1 a {
+	text-decoration: none;
+	color: #000;
+}
+
+.sign-up-1-a {
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	    border-bottom: 1px solid black;
+}
+
+
+.sign-up-1-h2 {
+	font-size: 26px;
+	transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+	grid-column-start: 1;
+	display: flex;
+}
+
+.sign-up-1-h2 h2{
+	margin: 0;
+}
+
+.sign-up-1-grid {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	justify-content: center;
+}
+
+.sign-up-1-img {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-duration: 650ms;
+}
