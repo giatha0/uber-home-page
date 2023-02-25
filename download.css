@@ -1,0 +1,78 @@
+
+.download-main {
+	width: 1152px;
+	padding: 64px 150px;
+	background-color: #f6f6f6;
+}
+
+
+.download-content {
+	display: grid;
+	grid-row-gap: 36px;
+	grid-column-gap: 36px;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.download-h2 {
+	grid-column: span 8;
+	font-size: 26px;
+	line-height: 44px;
+}
+
+.download-h2 h2 {
+	margin: 0;
+}
+
+.download-pointer {
+	grid-column: span 6;
+	position: relative;
+	border: 1px solid hsla(0, 0%, 0%, 0.12);
+	background-color: #FFF;
+}
+
+.download-pointer a{
+	display: flex;
+	text-decoration: none;
+	color: #000;
+}
+
+.download-pointer-img {
+	margin: 24px 0px 24px 24px;
+}
+
+.download-pointer-h2 {
+	display: flex;
+	font-size: 18px;
+	flex-direction: column;
+	justify-content: center;
+	margin: 24px 48px 24px 24px;
+}
+
+.download-pointer-h2 h2 {
+	margin: 0;
+}
+
+.download-pointer-item {
+	transition: all 400ms ease !important;
+    position: absolute;
+    width: 20px;
+    top: 50%;
+    right: 24px;
+    top: calc(50% - 6px);	
+}
+
+.download-pointer-item img{
+	width: 1em;
+	height: 25;
+
+}
+
+.download-content :hover .download-pointer-item{
+	right: 10px;
+}
+
+
+
+
+
+
